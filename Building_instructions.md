@@ -17,7 +17,8 @@
   - Make sure the flat side is facing the part of the header strip you want to use.
   - Cleanup the edges if needed.
 ## 3. Solder male headers to the RP2040 board
-- Use a breadboard to make sure the headers are straight. 
+- Use a breadboard to make sure the headers are straight.
+- The 4 pin header is not used and should not be soldered.
 - Be carefull to not bend any pins when you remove the assembly from the breadboard.
 ![image](images/rp2040_board.jpg)
 ## 4. Separate the front and the back PCB
@@ -30,16 +31,18 @@
 - Both PCBs have a smiley printed on them. These smileys should face each other in the final assembly!
 - The male headers should be soldered to the main PCB (the one with the Pyro logo). The female headers should be soldered to the front PCB (the one with the jack sockets).
 ## 6. Check the ground (Gnd) connection
-- Use a multimeter to check that both PCBs have a good ground (Gnd) connection. Measure the resistance between one of the center pins of the eurorack power connector (on the main PCB) and one of the negative LED pins (on the front PCB). The resistance should be 1 Ohm or less.
+- Use a multimeter to check that both PCBs have a good ground (Gnd) connection. Measure the resistance between the 'Gnd' pin of the 'I2C EX' header on the main PCB) and the negative (-) pin of 'LED1' on the front PCB. The resistance should be 1 Ohm or less.
 - If it is more:
   - Check that your multimeter shows 0 Ohm if you connect both probes directly.
   - Check all solder joints of the headers.
 ## 7. Solder female headers for the RP2040 board
 - Separate both PCBs again and dry fit the RP2040 board with the female headers onto the main PCB.
-- once everything is in place start to solder.
+- The 3 pin header is not used and should not be soldered.
+- Once everything is in place start to solder.
 ## 8. Solder the eurorack power connector
 - Solder the male 10-pin IDC connector OR 2 5-pin male headers for the eurorack power connector.
 - The eurorack power connector is located left of the Pyro logo on the main PCB.
+- The 'I2C EX' header should only be soldered if you need it to connect extension modules.
 ## 9. Solder the jack sockets
 - Dry fit the jack sockets together with the front panel to the front PCB.
 - Once everything is in place start to solder.
