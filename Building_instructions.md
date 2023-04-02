@@ -9,7 +9,6 @@
 - You need:
   - 2 male and 2 female headers for the RP2040 board (20 pins long)
   - 3 male and 3 female headers 8 pins long
-  - 2 male headers 5 pins long OR 1 male 10-pin IDC connector
 - To separate male headers: 
   - Grab the pins before and after the point of separation and twist them.
 - To separate female headers: 
@@ -26,12 +25,13 @@
 - Cleanup the edges if needed.
 ![image](images/cut_pcb.jpg)
 ## 5. Solder female headers for the RP2040 board
-- dry fit the RP2040 board with the female headers onto the main PCB.
+- Dry fit the RP2040 board with the female headers onto the main PCB.
+- The RP2040 board should be on the same side as the Pyro logo.
 - Once everything is in place start to solder.
 ## 6. Solder headers between the PCBs
 - The PCBs are connected by 3 headers that are 8 pins long each.
 - Dry fit everything first and once everything is in place start to solder the whole assembly!
-- Both PCBs have a smiley printed on them. These smileys should face each other in the final assembly!
+- The headers should be on the same side of the PCBs as the smileys. So the smileys should face each other in the final assembly!
 - The male headers should be soldered to the main PCB (the one with the Pyro logo). The female headers should be soldered to the front PCB (the one with the jack sockets).
 ## 7. Check the ground (Gnd) connection
 - Use a multimeter to check that both PCBs have a good ground (Gnd) connection. Measure the resistance between the 'Gnd' pin of the 'I2C EX' header on the main PCB) and the negative (-) pin of 'LED1' on the front PCB. The resistance should be 1 Ohm or less.
@@ -40,7 +40,7 @@
   - Check all solder joints of the headers.
 - If everything is good, separate both PCBs again and continue.
 ## 8. Solder the eurorack power connector
-- Solder the male 10-pin IDC connector OR 2 5-pin male headers for the eurorack power connector.
+- Solder the male 10-pin IDC connector for the eurorack power cable.
 - The eurorack power connector is located left of the Pyro logo on the main PCB.
 - The 'I2C EX' header should only be soldered if you need it to connect extension modules.
 ## 9. Solder the jack sockets
@@ -50,12 +50,12 @@
 - Dry fit the encoders together with the front panel to the front PCB.
 - Once everything is in place start to solder.
 ## 11. Select the display pinout
-- There are 2 solder jumpers (J1 and J2) on the back of the front PCB. These are used to select the display layout. You have to connect the center pad with the right or with the left pad.
-- Compare your displays pin layout to the one printed on the PCB.
+- There are 2 solder jumpers (J1 and J2) on the back of the front PCB. These are used to select the display layout. You have to connect the center pad with the right OR with the left pad.
+- Compare your displays pin layout to the one printed on the front PCB.
 - If they match:
-  - For both jumpers: Connect the center pad to the pad WITH the ^ marking
+  - For both jumpers: Connect the center pad to the pad WITH the '^' marking
 - If Gnd and Vcc are swapped:
-  - For both jumpers: Connect the center pad to the pad WITHOUT the ^ marking
+  - For both jumpers: Connect the center pad to the pad WITHOUT the '^' marking
 - Use the multimeter to check that there is no connection between Gnd and Vcc of the display header.
 - If you have a connection between these points, one of the jumpers is causing a short circuit.
 ## 12. Dry fit and solder the display
@@ -68,3 +68,6 @@
 - Dry fit the LEDs together with the front panel to the front PCB.
 - You can now leave the front panel attached after soldering.
 - Once everything is in place start to solder.
+## 14. Final assembly
+- Assemble the main PCB with the RP2040 board to the front PCB and panel.
+- Add Knobs to the encoders. make sure they are easy to turn and press (they should shound klicky when pressed down).
