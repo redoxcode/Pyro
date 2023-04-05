@@ -15,6 +15,7 @@
   - Use the diagonal cutters and cut in the middle of the next socket (you will have to sacrifice one socket).
   - Make sure the flat side is facing the part of the header strip you want to use.
   - Cleanup the edges if needed.
+![image](images/cut_headers.jpg)
 ## 3. Solder male headers to the RP2040 board
 - Use a breadboard to make sure the headers are straight.
 - The 4 pin header is not used and should not be soldered.
