@@ -1,7 +1,7 @@
 # Building instructions
 ## 1. Before you start
 - If you don't have that much soldering experience we recomment you read this [excellent guide](https://learn.adafruit.com/adafruit-guide-excellent-soldering).
-- You might be able to skip some steps depending on your Kit / Parts.
+- You might be able to skip some steps depending on your kit / parts.
 - Your PCBs might look slightly different than those in the pictures.
 - To get a clean build a lot of dry fitting should be used. That means you loosely stack all the parts needed and once everything is in place you start to solder. Sometimes you can use a small tape or rubber band to keep everything together. Start by soldering 2 opposing pins per component to keep everything in place. Then solder all the other pins.
 ## 2. Prepare your headers
@@ -29,6 +29,7 @@
 - Dry fit the RP2040 board with the female headers onto the main PCB.
 - The RP2040 board should be on the same side as the Pyro logo.
 - Once everything is in place start to solder.
+> You can decrease the modules deapth from 45mm to about 35mm if you solder the RP2040 board with the male headers directly to the main PCB (not using the female headers). You obviously won't be able to remove the RP2040 board, but that is not needed for programming. Most USB-C cables should still fit fine.
 ## 6. Solder headers between the PCBs
 - The PCBs are connected by 3 headers that are 8 pins long each.
 - Dry fit everything first and once everything is in place start to solder the whole assembly!
