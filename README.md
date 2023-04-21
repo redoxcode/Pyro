@@ -8,3 +8,9 @@ Pyro is a multi purpose eurorack module based on the rp2040. It can be used with
 - 128x64 oled screen
 - USB-C programming port
 - I2C expansion port
+# Status
+## Hardware:
+- Waiting on Parts to assemble the first mini batch.
+## Software:
+- Basic functions are done. But there are still some features to implement before release.
+- Audio output is still WIP
