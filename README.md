@@ -1,3 +1,4 @@
+![image](images/pyro_photo.png)
 # Pyro
 Pyro is a multi purpose eurorack module based on the rp2040. It can be used with the default Pyro firmware, but is also reprogrammable using Python (MicroPython/CircuitPython) or C++/arduino.
 # Hardware features
@@ -9,11 +10,10 @@ Pyro is a multi purpose eurorack module based on the rp2040. It can be used with
 - USB-C programming port
 - I2C expansion port
 - Current draw: 90mV @ 12V, 9mV @ -12V (typical use)
-
-![image](images/Pyro_panel.png)
 # Status
 ## Hardware:
-- Waiting on Parts to assemble the first mini batch.
+- First small batch assembled
+- Making final improvements
 ## Software:
 - Basic functions are done. But there are still some features to implement before release.
 - Audio output is still WIP
