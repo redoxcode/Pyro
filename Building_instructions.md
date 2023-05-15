@@ -67,7 +67,6 @@
 - Dry fit the RP2040 board with the female headers onto the main PCB.
 - The RP2040 board should be on the same side as the Pyro logo.
 - Once everything is in place start to solder.
-> You can decrease the modules deapth from 45mm to about 35mm if you solder the RP2040 board with the male headers directly to the main PCB (not using the female headers). You obviously won't be able to remove the RP2040 board, but that is not needed for programming. Most USB-C cables should still fit fine.
 
 ![image](images/build_5.jpg)
 ## 10. install the display
